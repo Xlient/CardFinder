@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid">
+
+    <div class="container banner w-100">
+        <img class="img-fluid" src="/Image/Banner.png" alt="logo with abtract art" />
+        <div class="buttonBar text-center">
+            <button class="btn btn-danger m-3">Get Started</button>
+            <a href="#About" class="btn btn-danger"> Learn More </a>
+
+        </div>
+    </div>
+
+    <div id="About" class="container  aboutsec vw-100">
+        <h2 class="font-weight-bold"> About</h2>
+        <p>
+            Card finder is a tool to help make choosing the right credit card easy for consumers. Instead of using traditional filters and comparison tables to help narrow down a users search,
+            Card Finder leverages lifelike conversational AI to make suggestions on potential credit card matches through a virtual agent. This allows users to engage in a conversation about their specific needs or interests
+            as if they were talking to a representative.
+        </p>
+    </div>
+    <div class="container how-to text-white">
+       show pictures of how to get started
+        - sample phrases
+         
+    </div>
+
+    <div>
+        simple faq section
+    </div>
+
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+    <df-messenger df-cx="true"
+                  location="us-central1"
+                  chat-title="Ona "
+                  agent-id="9d770346-3942-4b8c-8aa6-d12def398ed6"
+                  language-code="en">
+
+    </df-messenger>
+</div>
+
+
+    <!--
+        TODO 4/16
+
+        - How to get started
+        - resources page
+
+
+        -->
