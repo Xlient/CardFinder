@@ -11,9 +11,9 @@ a.navbar-brand {
     font-size: 1.7rem;
 }
 
-/* Provide sufficient contrast against white background */
+
 a {
-  color: #0366d6;
+  color : darkblue;
 }
 
 h1 {
@@ -25,15 +25,39 @@ h2 {
     padding: 5px;
     margin: 15px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 p {
     padding: 5px;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
 }
-
+ol {
+    font-size: 1.3rem;
+    padding: 4px;
+}
+/* styles for dialogflow messenger*/
+df-messenger {
+    --df-messenger-bot-message: ghostwhite;
+    --df-messenger-button-titlebar-color: #ffd23f;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: #0F0F0F;
+    --df-messenger-send-icon: #C03221;
+    --df-messenger-user-message: white;
+}
+#Resources h2 , ul, img{
+    padding: 20px;
+    
+}
+#Resources ul {
+    font-size: 1.5rem;
+}
+.list-group {
+    padding: 5px;
+    margin: 50px;
+}
 
 .banner {
     display: block;
@@ -46,7 +70,7 @@ p {
     margin-right: 35px;
     text-align: center;
     color: ghostwhite;
-    background-color: #e84855;
+    background-color: #C03221;
 }
 
  .btn.learn-more {
@@ -60,6 +84,9 @@ p {
   border-color: #1861ac;
 }
 
+.container{
+   padding: 12px 100px;
+}
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
